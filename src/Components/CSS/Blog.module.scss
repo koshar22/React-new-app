@@ -1,0 +1,26 @@
+.blog {
+    background-image: url("../images/image9.jpg");
+}
+
+.box {
+    background-color: rgb(141, 135, 135);
+    border: 2px solid #000;
+    font-weight: normal;
+    color: #fff;
+    // margin: 100px;
+    padding: 50px;
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+     img {
+         align-items: center;
+         text-align: center;
+         justify-content: center;
+     }
+     p {
+         &:last-child {
+             text-align: right;
+         }
+     }
+}
